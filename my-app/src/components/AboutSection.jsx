@@ -27,7 +27,7 @@ export default function AboutSection() {
           {/* Image 1 */}
           <div>
             <img
-              src="https://images.unsplash.com/photo-1608889175123-8e8365a79381?auto=format&fit=crop&w=500&q=80"
+              src="/images/Delhi-airport-plaza-family-suite-room.webp"
               alt="Family Room"
               className="rounded-lg shadow-md w-full h-48 sm:h-64 md:h-72 object-cover"
             />
