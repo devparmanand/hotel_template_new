@@ -4,17 +4,18 @@ import React from "react";
 export default function RestaurantBar() {
   const menu = [
     { title: "Grilled Beef with potatoes", price: "$20.00", image: "https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&w=80&q=80" },
+    { title: "Grilled Beef with potatoes", price: "$20.00", image: "https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&w=80&q=80" },
+    { title: "Grilled Beef with potatoes", price: "$20.00", image: "https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&w=80&q=80" },
+    { title: "Grilled Beef with potatoes", price: "$20.00", image: "https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&w=80&q=80" },
     { title: "Grilled Beef with potatoes", price: "$29.00", image: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=80&q=80" },
-    { title: "Grilled Beef with potatoes", price: "$20.00", image: "https://images.unsplash.com/photo-1604908176997-84a5c8d884f7?auto=format&fit=crop&w=80&q=80" },
-    { title: "Grilled Beef with potatoes", price: "$20.00", image: "https://images.unsplash.com/photo-1604145559206-e3bce0040e4e?auto=format&fit=crop&w=80&q=80" },
-    { title: "Ham & Pineapple", price: "$20.00", image: "https://images.unsplash.com/photo-1617196036884-9f2fc54e07de?auto=format&fit=crop&w=80&q=80" },
-    // 🔥 Extra items for better alignment
-    { title: "Ultimate Overload", price: "$25.00", image: "https://images.unsplash.com/photo-1606756790138-261f16f0dc8d?auto=format&fit=crop&w=80&q=80" },
-    { title: "Spicy Chicken Wings", price: "$18.00", image: "https://images.unsplash.com/photo-1604908554157-52f67f81c8db?auto=format&fit=crop&w=80&q=80" },
-    { title: "Cheese Pizza", price: "$22.00", image: "https://images.unsplash.com/photo-1548365328-9bdb5e3e854f?auto=format&fit=crop&w=80&q=80" },
-    { title: "Veggie Delight", price: "$19.00", image: "https://images.unsplash.com/photo-1605478374220-6c5f6e9d8e8c?auto=format&fit=crop&w=80&q=80" },
-    { title: "Seafood Special", price: "$30.00", image: "https://images.unsplash.com/photo-1604328698692-9d5823b8e4af?auto=format&fit=crop&w=80&q=80" },
-  ];
+    { title: "Grilled Beef with potatoes", price: "$29.00", image: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=80&q=80" },
+    { title: "Grilled Beef with potatoes", price: "$29.00", image: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=80&q=80" },
+    { title: "Grilled Beef with potatoes", price: "$29.00", image: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=80&q=80" },
+    { title: "Grilled Beef with potatoes", price: "$29.00", image: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=80&q=80" },
+    { title: "Grilled Beef with potatoes", price: "$29.00", image: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=80&q=80" },
+    { title: "Grilled Beef with potatoes", price: "$29.00", image: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=80&q=80" },
+    { title: "Grilled Beef with potatoes", price: "$29.00", image: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=80&q=80" },
+   ];
 
   return (
     <section className="py-16 bg-gray-50">
