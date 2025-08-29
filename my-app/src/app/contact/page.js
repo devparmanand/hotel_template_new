@@ -17,10 +17,10 @@ export default function ContactPage() {
   {/* Hero Content (centered breadcrumb + heading only) */}
   <div className="relative z-10 flex flex-col items-center justify-center text-center text-white px-6 min-h-[80vh]">
     <p className="uppercase tracking-wide text-sm md:text-base font-light mb-4">
-      HOME <span className="mx-2">›</span> RESTO & BAR
+      HOME <span className="mx-2">›</span> CONTACT
     </p>
     <h1 className="text-4xl md:text-6xl font-bold drop-shadow-lg">
-        Resto & Bar
+        CONTACT US
     </h1>
   </div>
 
