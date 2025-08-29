@@ -18,32 +18,32 @@ export default function Navbar() {
         <nav>
           <ul className="hidden md:flex space-x-8 text-white font-semibold text-sm tracking-wide">
             <li>
-              <a href="#home" className="hover:text-yellow-400 transition">
+              <a href="/" className="hover:text-yellow-400 transition">
                 HOME
               </a>
             </li>
             <li>
-              <a href="#about" className="hover:text-yellow-400 transition">
+              <a href="/about" className="hover:text-yellow-400 transition">
                 ABOUT
               </a>
             </li>
             <li>
-              <a href="#rooms" className="hover:text-yellow-400 transition">
+              <a href="/rooms" className="hover:text-yellow-400 transition">
                 ROOMS
               </a>
             </li>
             <li>
-              <a href="#resto" className="hover:text-yellow-400 transition">
+            <a href="/resto" className="hover:text-yellow-400 transition">
                 RESTO & BAR
               </a>
             </li>
             <li>
-              <a href="#blog" className="hover:text-yellow-400 transition">
+              <a href="/blog" className="hover:text-yellow-400 transition">
                 BLOG
               </a>
             </li>
             <li>
-              <a href="#contact" className="hover:text-yellow-400 transition">
+              <a href="/contact" className="hover:text-yellow-400 transition">
                 CONTACT
               </a>
             </li>

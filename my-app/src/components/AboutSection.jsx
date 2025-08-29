@@ -1,11 +1,8 @@
-
-
-
 import React from "react";
+
 export default function AboutSection() {
   return (
-    <section className="py-24 md:py-32 bg-gray-50"> 
-      {/* yaha py-20 ko bada karke py-24 (mobile) aur md:py-32 (desktop) kar diya */}
+    <section className="mt-48 sm:mt-16 py-24 md:py-32 bg-gray-50">
       <div className="container mx-auto px-6 md:px-12 lg:px-20 grid grid-cols-1 lg:grid-cols-2 gap-16 md:gap-20 items-center">
         
         {/* Left Content (Cards + Images) */}
@@ -58,8 +55,7 @@ export default function AboutSection() {
         </div>
 
         {/* Right Content */}
-        <div className="text-center lg:text-left mt-6 lg:mt-0"> 
-          {/* mobile me thoda extra top space diya mt-6, large screen pe reset */}
+        <div className="text-center lg:text-left mt-6 lg:mt-0">
           <h5 className="text-yellow-600 uppercase tracking-widest font-semibold mb-3 text-sm sm:text-base">
             About Us
           </h5>

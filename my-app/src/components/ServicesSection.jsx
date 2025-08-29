@@ -57,38 +57,7 @@ export default function ServicesSection() {
 
    
 
-      {/* call to section */}
-
-       <section
-      className="relative bg-cover bg-center h-[250px] flex items-center justify-center"
-      style={{
-        backgroundImage:
-          "url('https://images.unsplash.com/photo-1501117716987-c8e1ecb2101b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80')", // replace with your hotel bg
-      }}
-    >
-      {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-black bg-opacity-60"></div>
-
-      {/* Content */}
-      <div className="relative z-10 text-center md:text-left max-w-4xl px-6 flex flex-col md:flex-row items-center justify-between gap-6">
-        {/* Left Text */}
-        <div>
-          <p className="text-sm tracking-widest text-yellow-500 uppercase mb-3">
-            Find Best Hotel For Living
-          </p>
-          <h1 className="text-4xl md:text-5xl font-bold text-white leading-snug">
-            Find the Best Hotel in Your <br /> Next Vacation
-          </h1>
-        </div>
-
-        {/* Button */}
-        <div>
-          <button className="bg-yellow-600 hover:bg-yellow-700 text-white font-semibold px-6 py-3 transition">
-            BOOK NOW
-          </button>
-        </div>
-      </div>
-    </section>
+   
     </>
   );
 }

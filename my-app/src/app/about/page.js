@@ -1,20 +1,38 @@
-import AboutSection from '@/components/AboutSection'
-import FeaturedRooms from '@/components/FeaturedRooms'
-import HeroSection from '@/components/Hore'
-import RecentBlog from '@/components/RecentBlog'
-import RestaurantBar from '@/components/RestaurantBar'
-import ServicesSection from '@/components/ServicesSection'
-import Testimonials from '@/components/Testimonials'
-import React from 'react'
+import AboutSection from "@/components/AboutSection";
+import Testimonials from "@/components/Testimonials";
+import Testimonials1 from "@/components/Testimonials1";
+import React from "react";
 
-export default function page() {
+export default function AboutHero() {
   return (
-    <>
-    <HeroSection/>
-    <AboutSection/>
-    <ServicesSection/>
-       {/* call to section */}
+<>
+ <section
+      className="relative h-screen flex items-center justify-center bg-center bg-cover"
+      style={{
+        backgroundImage:
+          "url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80')",
+      }}
+    >
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black/50"></div>
 
+      {/* Content */}
+      <div className="relative z-10 text-center text-white px-4 sm:px-6 md:px-12">
+        {/* Breadcrumb */}
+        <p className="uppercase tracking-wide text-xs sm:text-sm md:text-base mb-4">
+          Home <span className="mx-1">›</span> About Us
+        </p>
+
+        {/* Heading */}
+        <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
+          About Us
+        </h1>
+      </div>
+    </section>
+
+    <AboutSection/>
+
+    
        <section
       className="relative bg-cover bg-center h-[250px] flex items-center justify-center"
       style={{
@@ -45,10 +63,9 @@ export default function page() {
         </div>
       </div>
     </section>
-    <FeaturedRooms/>
-    <RestaurantBar/>
-    <Testimonials/>
-    <RecentBlog/>
-    </>
-  )
+
+    <Testimonials1/>
+
+</>
+  );
 }
