@@ -67,22 +67,22 @@ export default function Navbar() {
         }`}
       >
         <div className="px-6 py-4 space-y-3">
-          <a href="#home" className="block text-sm font-light tracking-wide hover:text-yellow-400">
+          <a href="/" className="block text-sm font-light tracking-wide hover:text-yellow-400">
             HOME
           </a>
-          <a href="#about" className="block text-sm font-light tracking-wide hover:text-yellow-400">
+          <a href="/about" className="block text-sm font-light tracking-wide hover:text-yellow-400">
             ABOUT
           </a>
-          <a href="#rooms" className="block text-sm font-light tracking-wide hover:text-yellow-400">
+          <a href="/rooms" className="block text-sm font-light tracking-wide hover:text-yellow-400">
             ROOMS
           </a>
-          <a href="#resto" className="block text-sm font-light tracking-wide hover:text-yellow-400">
+          <a href="/resto" className="block text-sm font-light tracking-wide hover:text-yellow-400">
             RESTO & BAR
           </a>
-          <a href="#blog" className="block text-sm font-light tracking-wide hover:text-yellow-400">
+          <a href="/blog" className="block text-sm font-light tracking-wide hover:text-yellow-400">
             BLOG
           </a>
-          <a href="#contact" className="block text-sm font-light tracking-wide hover:text-yellow-400">
+          <a href="/contact" className="block text-sm font-light tracking-wide hover:text-yellow-400">
             CONTACT
           </a>
         </div>
